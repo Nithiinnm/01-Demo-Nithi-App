@@ -4,4 +4,9 @@ public class {
 		syso("Welcome to git")
 	}
 	
+	public String mergeRequest(){
+		
+		return "Merge Request Completed...";
+	}
+	
 }
