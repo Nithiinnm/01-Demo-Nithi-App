@@ -1,8 +1,10 @@
 public class {
 	
+	Map<String,Object> mapObject = new HashMap<String,Object>();
+
 	private static String rest_url = "www.cricbuzz.com"
 	
-	public void gitCheckout(){
+  public void gitCheckout(){
 		syso("Welcome to git")
 	}
 
@@ -13,5 +15,13 @@ public class {
 		return"Successful";
 	}
 
+	
+	public void mergeConflictByNihti(){
+		
+		mapObject.put("Nithi",employee);
+		
+		syso(mapObject);
+	}
+	
 	
 }
